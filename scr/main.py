@@ -1,9 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
-diff --git a/scr/main.py b/scr/main.py
-index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..93aacd0c29287a4e9aabaadef4f492b41c2c2be0 100644
---- a/scr/main.py
-+++ b/scr/main.py
-@@ -0,0 +1,232 @@
 +"""Simple CLI Sales Management System.
 +
 +Features:
@@ -239,3 +233,4 @@ index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..93aacd0c29287a4e9aabaadef4f492b4
  
 EOF
 )
+
